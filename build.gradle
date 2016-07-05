@@ -21,12 +21,12 @@ repositories {
 }
 
 grailsPublish {
-	userOrg = 'grails'  
-	githubSlug = 'grails-profiles/web-plugin'
-	license = 'Apache-2.0'
-	title = "Grails Web Plugin Profile"
-	desc = "A profile for Web plugins"
-	developers = [graemerocher:'Graeme Rocher']
+    userOrg = 'grails'  
+    githubSlug = 'grails-profiles/web-plugin'
+    license = 'Apache-2.0'
+    title = "Grails Web Plugin Profile"
+    desc = "A profile for Web plugins"
+    developers = [graemerocher:'Graeme Rocher']
 }    
 
 dependencies {
