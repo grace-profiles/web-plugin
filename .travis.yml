@@ -4,6 +4,9 @@ jdk:
 - openjdk7
 before_script:
 - rm -rf target
+cache:
+  directories:
+    - $HOME/.gradle
 script: ./travis-build.sh
 env:
   global:
