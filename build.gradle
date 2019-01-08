@@ -31,6 +31,6 @@ grailsPublish {
 }    
 
 dependencies {
-    runtime "org.grails.profiles:plugin:3.2.2"
+    runtime "org.grails.profiles:plugin:$pluginProfileVersion"
     runtime "org.grails.profiles:web:$webProfileVersion"
 }
