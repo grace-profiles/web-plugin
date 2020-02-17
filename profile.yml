@@ -21,8 +21,5 @@ build:
     excludes:
         - war
         - org.grails.grails-web
-dependencies:
-    testCompile:
-        - "org.grails:grails-plugin-testing"    
 
 
