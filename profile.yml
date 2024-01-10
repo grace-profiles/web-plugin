@@ -1,11 +1,11 @@
 description: Profile for Plugins designed for Web applications
 skeleton:
     excludes:
-        - grails-app/assets/**/*.*
-        - grails-app/i18n/*.properties
-        - grails-app/conf/spring/**
-        - grails-app/controllers/UrlMappings.groovy
-        - grails-app/init/BootStrap.groovy
+        - app/assets/**/*.*
+        - app/i18n/*.properties
+        - app/conf/spring/**
+        - app/controllers/UrlMappings.groovy
+        - app/init/BootStrap.groovy
 command:
     excludes:
         - war
