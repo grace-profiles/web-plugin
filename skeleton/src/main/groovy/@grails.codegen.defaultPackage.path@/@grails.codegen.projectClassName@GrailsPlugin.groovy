@@ -14,7 +14,7 @@ class @grails.codegen.projectClassName@GrailsPlugin extends Plugin {
     // TODO Fill in these fields
     def title = "@grails.codegen.projectNaturalName@" // Headline display name of the plugin
     def author = "Your name"
-    def authorEmail = ""
+    def authorEmail = "yourname@example.com"
     def description = '''\
 Brief summary/description of the plugin.
 '''
@@ -29,16 +29,16 @@ Brief summary/description of the plugin.
 //    def license = "APACHE"
 
     // Details of company behind the plugin (if there is one)
-//    def organization = [ name: "My Company", url: "http://www.my-company.com/" ]
+//    def organization = [ name: "My Company", url: "https://www.my-company.com/" ]
 
     // Any additional developers beyond the author specified above.
-//    def developers = [ [ name: "Michael Yan", email: "rain@rainboyan.com" ]]
+//    def developers = [ [ name: "Your name", email: "yourname@example.com" ] ]
 
     // Location of the plugin's issue tracker.
-//    def issueManagement = [ system: "GitHub", url: "http://github.com/grace-plugins/my-plugin/issues" ]
+//    def issueManagement = [ system: "GITHUB", url: "https://github.com/grace-plugins/@grails.codegen.projectName@/issues" ]
 
     // Online location of the plugin's browseable source code.
-//    def scm = [ url: "http://github.com/grace-plugins/my-plugin" ]
+//    def scm = [ url: "https://github.com/grace-plugins/@grails.codegen.projectName@" ]
 
     Closure doWithSpring() { {->
             // TODO Implement runtime spring config (optional)
