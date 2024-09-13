@@ -22,3 +22,6 @@ build:
     excludes:
         - war
         - org.graceframework.grace-web
+dependencies:
+    - scope: compile
+      coords: "org.graceframework:grace-core"
