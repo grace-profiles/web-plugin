@@ -10,11 +10,10 @@ command:
     excludes:
         - war
 features:
-    required:
-        - gsp
     defaults:
         - asset-pipeline-plugin
         - maven-publish
+        - gsp
 build:
     merge:
         - base
