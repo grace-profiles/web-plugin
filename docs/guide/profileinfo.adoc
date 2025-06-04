@@ -1,0 +1,35 @@
+You can always get information about the provided command and available features executing
+`grace profile-info web-plugin`
+
+You will see an output similar to:
+
+[source, bash]
+----
+Profile: web-plugin
+Version: 2023.3.0
+Extends: base, plugin
+Description: Profile for Plugins designed for Web applications
+
+Provided Commands:
+----------------------------------------------------------------------------------------------------
+Name                           Description
+----------------------------------------------------------------------------------------------------
+
+Provided Features:
+----------------------------------------------------------------------------------------------------
+Name                           Required   Default    Description
+----------------------------------------------------------------------------------------------------
+asset-pipeline                                       Adds Asset Pipeline to a Grace project
+asset-pipeline-plugin                       +        Adds Asset Pipeline to a Grace Plugin for packaging
+async                                                Adds support for the Grace Async
+cache                                                Adds support for the Grace Cache abstraction
+database-migration                                   Grace Database Migration Plugin
+events                                               Adds support for the Grace EventBus abstraction
+geb                                                  Adds Geb 7, WebDriver 4.x and Webdriver binaries Gradle Plugin dependencies to run functional tests.
+gsp                                         +        Adds support for GSP to the project
+hibernate                                            Adds GORM for Hibernate to the project
+json-views                                           Adds support for JSON Views to the project
+markup-views                                         Adds support for Markup Views to the project
+maven-publish                               +        Publish Artifacts to Maven Central
+mongodb                                              Adds GORM for MonogoDB to the project
+----

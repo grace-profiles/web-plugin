@@ -1,0 +1,8 @@
+Grails Profiles encapsulate project commands, templates, and plugins.
+
+To create a plugin using the `web-plugin` profile you can use the next command:
+
+[source, bash]
+----
+$ grace create-plugin com.example.myplugin --profile=web-plugin
+----
