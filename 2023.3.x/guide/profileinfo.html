@@ -115,25 +115,75 @@ Provided Commands:
 ----------------------------------------------------------------------------------------------------
 Name                           Description
 ----------------------------------------------------------------------------------------------------
+about                          About your application's environment
+assemble                       Creates a JAR or WAR archive for production deployment
+bug-report                     Creates a zip file that can be attached to issue reports for the current project [deprecated]
+clean                          Cleans a Grace application's compiled sources
+compile                        Compiles a Grace application
+console                        Runs the Grace interactive console
+create-command                 Creates an Application Command
+create-domain-class            Creates a Domain Class
+create-plugin                  Creates a Dynamic Plugin
+create-script                  Creates a Groovy Script
+create-unit-test               Creates a Unit Test
+dependency-report              Prints out the Grace application's dependencies [deprecated]
+package                        Packages a Grace application
+package-plugin                 Packages the plugin into a JAR file [deprecated]
+publish-plugin                 Publishes the plugin to the Maven Central repository [deprecated]
+run-app                        Runs a Grace application
+run-command                    Executes Grace commands
+run-script                     Executes Groovy scripts in a Grace context
+shell                          Runs the Grace interactive shell
+stats                          Prints statistics about the project
+stop-app                       Stops the running Grace application
+test-app                       Runs the applications tests
 
 Provided Features:
 ----------------------------------------------------------------------------------------------------
-Name                           Required   Default    Description
+Name                           Required  Defaults  Description
 ----------------------------------------------------------------------------------------------------
-asset-pipeline                                       Adds Asset Pipeline to a Grace project
-asset-pipeline-plugin                       +        Adds Asset Pipeline to a Grace Plugin for packaging
-async                                                Adds support for the Grace Async
-cache                                                Adds support for the Grace Cache abstraction
-database-migration                                   Grace Database Migration Plugin
-events                                               Adds support for the Grace EventBus abstraction
-geb                                                  Adds Geb 7, WebDriver 4.x and Webdriver binaries Gradle Plugin dependencies to run functional tests.
-gsp                                         +        Adds support for GSP to the project
-hibernate                                            Adds GORM for Hibernate to the project
-json-views                                           Adds support for JSON Views to the project
-markup-views                                         Adds support for Markup Views to the project
-maven-publish                               +        Publish Artifacts to Maven Central
-mongodb                                              Adds GORM for MonogoDB to the project</code></pre>
+asset-pipeline                                     Adds Asset Pipeline to a Grace project
+asset-pipeline-plugin                      +       Adds Asset Pipeline to a Grace Plugin for packaging
+async                                              Adds support for the Grace Async
+cache                                              Adds support for the Grace Cache abstraction
+database-migration                                 Grace Database Migration Plugin
+events                                             Adds support for the Grace EventBus abstraction
+geb                                                Adds Geb 7, WebDriver 4.x and Webdriver binaries Gradle Plugin dependencies to run functional tests.
+gsp                                        +       Adds support for GSP to the project
+hibernate                                          Adds GORM for Hibernate to the project
+json-views                                         Adds support for JSON Views to the project
+markup-views                                       Adds support for Markup Views to the project
+maven-publish                              +       Publish Artifacts to Maven Central
+mongodb                                            Adds GORM for MonogoDB to the project</code></pre>
 </div>
+</div>
+<div class="paragraph">
+<p>The above list includes all the commands and features from it&#8217;s parent profile.</p>
+</div>
+<div class="paragraph">
+<p>But if you want only show it&#8217;s own commands and features, you can execute <code>grace profile-info web-plugin --only</code>.
+You will see that <code>web-plugin</code> profile extends from <code>base</code> and <code>plugin</code>, but it doesn&#8217;t provides any commands and features.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="bash">Profile: web-plugin
+Version: 2023.3.0
+Extends: base, plugin
+Description: Profile for Plugins designed for Web applications
+
+Provided Commands:
+----------------------------------------------------------------------------------------------------
+Name                           Description
+----------------------------------------------------------------------------------------------------
+
+Provided Features:
+----------------------------------------------------------------------------------------------------
+Name                           Required  Defaults  Description
+----------------------------------------------------------------------------------------------------</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Compared to the <code>plugin</code> profile, the <code>web-plugin</code> provides <code>asset-pipeline-plugin</code> and <code>gsp</code> in addition to <code>maven-publish</code> by default.</p>
 </div>
 
 
