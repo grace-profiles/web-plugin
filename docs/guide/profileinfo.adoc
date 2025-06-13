@@ -3,7 +3,7 @@ You can always get information about the provided command and available features
 
 You will see an output similar to:
 
-[source, bash]
+[source,console]
 ----
 Profile: web-plugin
 Version: 2023.3.0
@@ -61,7 +61,7 @@ The above list includes all the commands and features from it's parent profile.
 But if you want only show it's own commands and features, you can execute `grace profile-info web-plugin --only`. 
 You will see that `web-plugin` profile extends from `base` and `plugin`, but it doesn't provides any commands and features.
 
-[source, bash]
+[source,console]
 ----
 Profile: web-plugin
 Version: 2023.3.0
