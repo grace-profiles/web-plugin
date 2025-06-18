@@ -10,6 +10,8 @@ link:{github}/releases/tag/v2023.3.0[release notes]
 🛠 Improvements
 
 * Add release notes
+* Add GitHub issue template
+* Change title to Profile Version
 * Remove deprecated gradle/actions/wrapper-validation
 * Update documentation - Update profile info
 * Use the feature `asset-pipeline` instead of `asset-pipeline-plugin`
@@ -24,6 +26,8 @@ link:{github}/releases/tag/v2023.3.0[release notes]
 
 * Upgrade to Grace 2023.3.0-RC2 link:{github}/issues/48[#48]
 * Upgrade to Grace 2023.3.0-RC1 link:{github}/issues/44[#44]
+* Upgrade to Grace Profile: Base 2023.3.0 link:{github}/issues/45[#45]
+* Upgrade to Grace Profile: Plugin 2023.3.0 link:{github}/issues/46[#46]
 * Upgrade to Gradle 8.14 link:{github}/issues/47[#47]
 
 === 2023.3.0-RC1
