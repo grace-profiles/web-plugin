@@ -20,4 +20,5 @@ build:
         - plugin
     excludes:
         - war
+        - org.graceframework.grace-app
         - org.graceframework.grace-web
