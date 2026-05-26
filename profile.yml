@@ -5,7 +5,7 @@ skeleton:
         - app/i18n/*.properties
         - app/conf/spring/**
         - app/controllers/UrlMappings.groovy
-        - app/init/BootStrap.groovy
+        - app/boot/Bootstrap.groovy
 command:
     excludes:
         - war
